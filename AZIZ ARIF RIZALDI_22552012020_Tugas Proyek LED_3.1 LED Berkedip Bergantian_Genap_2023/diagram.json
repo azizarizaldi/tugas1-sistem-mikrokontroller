@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "author": "Aziz Arif Rizaldi",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 112.2, "left": 194.8, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 115.8, "left": -87, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 207.6,
+      "left": 272.6,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 207.6,
+      "left": 359,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 207.6,
+      "left": 445.4,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 253.85,
+      "left": 325,
+      "rotate": 180,
+      "attrs": { "value": "220000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 253.85,
+      "left": 411.4,
+      "rotate": 180,
+      "attrs": { "value": "220000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 253.85,
+      "left": 238.6,
+      "rotate": 180,
+      "attrs": { "value": "220000" }
+    }
+  ],
+  "connections": [
+    [ "uno:11", "r3:2", "red", [ "h0.6", "v-28.8", "h258" ] ],
+    [ "uno:10", "r1:2", "green", [ "h0.7", "v-48", "h334.8" ] ],
+    [ "uno:9", "r2:2", "blue", [ "h0.8", "v-67.2", "h411.6" ] ],
+    [ "uno:GND.3", "bb1:bp.1", "black", [ "v28.7", "h213.6" ] ],
+    [ "bb1:8b.j", "bb1:bp.6", "green", [ "v0" ] ],
+    [ "r3:1", "bb1:9b.i", "", [ "$bb" ] ],
+    [ "r3:2", "bb1:3b.i", "", [ "$bb" ] ],
+    [ "r1:1", "bb1:18b.i", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:12b.i", "", [ "$bb" ] ],
+    [ "r2:1", "bb1:27b.i", "", [ "$bb" ] ],
+    [ "r2:2", "bb1:21b.i", "", [ "$bb" ] ],
+    [ "led1:A", "bb1:9b.h", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:8b.h", "", [ "$bb" ] ],
+    [ "led2:A", "bb1:18b.h", "", [ "$bb" ] ],
+    [ "led2:C", "bb1:17b.h", "", [ "$bb" ] ],
+    [ "led3:A", "bb1:27b.h", "", [ "$bb" ] ],
+    [ "led3:C", "bb1:26b.h", "", [ "$bb" ] ],
+    [ "bb1:17b.j", "bb1:bp.14", "green", [ "v0" ] ],
+    [ "bb1:26b.j", "bb1:bp.21", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
