@@ -5,5 +5,5 @@ Repo ini digunakan untuk mengerjakan tugas 1 dari matakuliah sistem mikrokontrol
 ![Tampilan 3.1](preview/3-1.gif)
 
 
-###Author
+### Author
 - Aziz Arif Rizaldi
