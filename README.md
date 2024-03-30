@@ -6,4 +6,5 @@ Repo ini digunakan untuk mengerjakan tugas 1 dari matakuliah sistem mikrokontrol
 
 
 ### Author
-- Aziz Arif Rizaldi
+Aziz Arif Rizaldi - 2024
+Universitas Teknologi Bandung
