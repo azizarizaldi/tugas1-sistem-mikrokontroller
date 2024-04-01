@@ -6,6 +6,8 @@ Repo ini digunakan untuk mengerjakan tugas 1 dari matakuliah sistem mikrokontrol
 
 ## Tugas Proyek LED - 3.2 LED Berkedip dengan Push Button
 
+## Tugas Proyek LED - 3.3 LED Bergerak dengan potensiometer
+
 ### Author
 Aziz Arif Rizaldi - 2024
 
