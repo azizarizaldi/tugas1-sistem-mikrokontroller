@@ -5,10 +5,13 @@ Repo ini digunakan untuk mengerjakan tugas 1 dari matakuliah sistem mikrokontrol
 ![Tampilan 3.1](preview/3-1.gif)
 
 ## Tugas Proyek LED - 3.2 LED Berkedip dengan Push Button
+![Tampilan 3.2](preview/3-2.gif)
 
 ## Tugas Proyek LED - 3.3 Fading LED dengan potensiometer
 
-### Author
-Aziz Arif Rizaldi - 2024
+## Tugas Proyek LED - 3.4 RGB LED
 
-Universitas Teknologi Bandung
+
+### Author
+- Aziz Arif Rizaldi
+- Universitas Teknologi Bandung - 2024
