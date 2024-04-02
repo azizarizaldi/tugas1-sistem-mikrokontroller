@@ -11,6 +11,7 @@ Repo ini digunakan untuk mengerjakan tugas 1 dari matakuliah sistem mikrokontrol
 ![Tampilan 3.3](preview/3-3.gif)
 
 ## Tugas Proyek LED - 3.4 RGB LED
+![Tampilan 3.4](preview/3-4.gif)
 
 
 ### Author
